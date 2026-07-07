@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fabric-cream: #F7F3EC;
+  --color-thread-maroon: #6B1F2A;
+  --color-zari-gold: #C9A24B;
+  --color-ink-charcoal: #2B2420;
+  --color-thread-sage: #5C6B4F;
+
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+body {
+  background-color: var(--color-fabric-cream);
+  color: var(--color-ink-charcoal);
+  font-family: var(--font-body);
+} 
