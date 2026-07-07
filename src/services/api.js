@@ -1,5 +1,6 @@
-const API_BASE = "http://localhost:5000/api"
-
+const API_BASE = import.meta.env.PROD
+  ? "https://embroidery-backend-production.up.railway.app/api"
+  : "http://localhost:5000/api"
 // Backend ka product frontend ke format mein convert karo
 // (MongoDB _id deta hai, frontend id use karta hai)
 function normalizeProduct(product) {
