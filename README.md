@@ -2,9 +2,29 @@
 
 A complete full-stack e-commerce platform built for a handmade embroidery business in Lahore, Pakistan. Customers can browse products, place orders via Cash on Delivery or mobile payments, track their orders, and leave reviews — while the store owner manages everything through a dedicated admin panel.
 
-**🔗 Live Website:**https://embroidery-store-tau.vercel.app/
+**🔗 Live Website:** [embroidery-store-tau.vercel.app](https://embroidery-store-tau.vercel.app/)
 
 ---
+
+## 📸 Screenshots
+
+### Homepage
+![Homepage](./screenshots/homepage.png)
+
+### Products Page
+![Products Page](./screenshots/products.png)
+
+### Product Detail Page
+![Product Detail](./screenshots/product-detail.png)
+
+### Shopping Cart
+![Cart](./screenshots/cart.png)
+
+### Checkout
+![Checkout](./screenshots/checkout.png)
+
+### Admin Dashboard
+![Admin Dashboard](./screenshots/admin-dashboard.png)
 
 ---
 
@@ -50,3 +70,40 @@ A complete full-stack e-commerce platform built for a handmade embroidery busine
 
 ---
 
+## 📁 Project Structure
+src/
+├── components/ → Reusable UI components (Navbar, Footer, ProductCard...)
+├── pages/ → Page components (Home, Products, Cart, Checkout...)
+├── pages/admin/ → Admin panel pages
+├── context/ → Cart state management
+├── data/ → Static reference data
+├── services/ → API service layer
+└── utils/ → Helper functions
+
+
+---
+
+## 🚀 Getting Started (Local Development)
+
+```bash
+# Clone the repository
+git clone https://github.com/majidawan01/embroidery-store.git
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+The app will run at `http://localhost:5173`. Note: this frontend connects to a separate backend repository ([embroidery-backend](https://github.com/majidawan01/embroidery-backend)) which must be running for full functionality.
+
+---
+
+## 📞 Contact
+
+For business inquiries related to this project, reach out via WhatsApp at **+92 344 0232857**.
+
+---
+
+*This project was built as a complete e-commerce solution — from frontend design to backend API, database, admin panel, and live deployment.*
