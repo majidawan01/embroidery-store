@@ -1,16 +1,52 @@
-# React + Vite
+# 🧵 Embroidery Store — E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A complete full-stack e-commerce platform built for a handmade embroidery business in Lahore, Pakistan. Customers can browse products, place orders via Cash on Delivery or mobile payments, track their orders, and leave reviews — while the store owner manages everything through a dedicated admin panel.
 
-Currently, two official plugins are available:
+**🔗 Live Website:**https://embroidery-store-tau.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+### Customer-Facing Website
+- 🏠 Homepage with hero slider, best sellers, new arrivals, and customer testimonials
+- 🔍 Live product search with instant results
+- 🗂️ Category browsing (Zari Work, Thread Embroidery, Mirror Work, Cutwork & Lace)
+- 🛒 Full shopping cart with quantity management
+- 💳 Checkout with Cash on Delivery, JazzCash, and Easypaisa
+- 📦 Order tracking by Order ID
+- ⭐ Customer reviews and ratings on every product
+- 💬 WhatsApp integration for support and custom orders
+- 📱 Fully responsive — mobile, tablet, and desktop
+- 📄 FAQs, Shipping Policy, Return Policy, About Us, and Contact pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Admin Panel
+- 🔐 Secure login with JWT authentication
+- 📊 Dashboard with order stats, revenue, and low-stock alerts
+- 🧵 Full product management — add, edit, delete products
+- 📦 Order management with status updates (Pending → Confirmed → Shipped → Delivered)
+- ⭐ Review moderation — approve or remove customer reviews
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js + Vite
+- React Router
+- Tailwind CSS
+
+**Backend:**
+- Node.js + Express
+- MongoDB (Mongoose)
+- JWT Authentication + bcrypt
+
+**Deployment:**
+- Frontend — Vercel
+- Backend — Railway
+- Database — MongoDB Atlas
+
+---
+
