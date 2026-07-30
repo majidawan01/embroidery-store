@@ -5,27 +5,31 @@ A complete full-stack e-commerce platform built for a handmade embroidery busine
 **🔗 Live Website:** [embroidery-store-tau.vercel.app](https://embroidery-store-tau.vercel.app/)
 
 ---
-
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](./screenshots/homepage.png)
+![Homepage](./ambridory%20home%20page.PNG)
 
 ### Products Page
-![Products Page](./screenshots/products.png)
+![Products Page](./ambridory%20product.PNG)
 
 ### Product Detail Page
-![Product Detail](./screenshots/product-detail.png)
+![Product Detail](./ambridory%20product%20detail.PNG)
 
 ### Shopping Cart
-![Cart](./screenshots/cart.png)
+![Cart](./shopping%20cart.PNG)
 
 ### Checkout
-![Checkout](./screenshots/checkout.png)
+![Checkout](./checkout.PNG)
 
 ### Admin Dashboard
-![Admin Dashboard](./screenshots/admin-dashboard.png)
+![Admin Dashboard](./admin%20dashboard.PNG)
 
+### Admin Orders
+![Admin Orders](./admin%20order.PNG)
+
+### Admin Reviews
+![Admin Reviews](./admin%20reviews.PNG)
 ---
 
 ## ✨ Features
