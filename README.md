@@ -1,113 +1,104 @@
-# 🧵 Embroidery Store — E-Commerce Website
+# Embroidery Store
 
-A complete full-stack e-commerce platform built for a handmade embroidery business in Lahore, Pakistan. Customers can browse products, place orders via Cash on Delivery or mobile payments, track their orders, and leave reviews — while the store owner manages everything through a dedicated admin panel.
+An e-commerce website for a handmade embroidery business in Lahore, Pakistan. Customers browse products, place orders and track them, while the store owner manages products, orders and reviews from an admin panel.
 
-**🔗 Live Website:** [embroidery-store-tau.vercel.app](https://embroidery-store-tau.vercel.app/)
+**Live demo:** https://embroidery-store-tau.vercel.app
+**Backend repo:** [embroidery-backend](https://github.com/majidawan01/embroidery-backend)
 
----
-## 📸 Screenshots
+## Key Features
+
+**Store**
+- Homepage with hero slider, best sellers, new arrivals and testimonials
+- Live product search
+- Category browsing (Zari Work, Thread Embroidery, Mirror Work, Cutwork and Lace)
+- Product detail pages with customer reviews and ratings
+- Shopping cart with quantity management
+- Checkout with Cash on Delivery, JazzCash or Easypaisa as payment options
+- Order tracking by order ID
+- WhatsApp button for support and custom orders
+- FAQ, Shipping Policy, Return Policy, About and Contact pages
+- Responsive layout for mobile, tablet and desktop
+
+**Admin panel**
+- Admin login with JWT
+- Dashboard with order count, revenue and low-stock alerts
+- Add, edit and delete products
+- Order management with status updates
+- Review moderation (approve or remove reviews)
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend (this repo) | React 19, Vite, React Router, Tailwind CSS v4 |
+| Backend ([embroidery-backend](https://github.com/majidawan01/embroidery-backend)) | Node.js, Express, MongoDB (Mongoose), JWT, bcrypt |
+| Hosting | Vercel (frontend), Railway (backend), MongoDB Atlas (database) |
+
+## Screenshots
 
 ### Homepage
 ![Homepage](./ambridory%20home%20page.PNG)
 
-### Products Page
-![Products Page](./ambridory%20product.PNG)
+### Products
+![Products page](./ambridory%20product.PNG)
 
-### Product Detail Page
-![Product Detail](./ambridory%20product%20detail.PNG)
+### Product detail
+![Product detail](./ambridory%20product%20detail.PNG)
 
-### Shopping Cart
+### Shopping cart
 ![Cart](./shopping%20cart.PNG)
 
 ### Checkout
 ![Checkout](./checkout.PNG)
 
-### Admin Dashboard
-![Admin Dashboard](./admin%20dashboard.PNG)
+### Admin dashboard
+![Admin dashboard](./admin%20dashboard.PNG)
 
-### Admin Orders
-![Admin Orders](./admin%20order.PNG)
+### Admin orders
+![Admin orders](./admin%20order.PNG)
 
-### Admin Reviews
-![Admin Reviews](./admin%20reviews.PNG)
----
+### Admin reviews
+![Admin reviews](./admin%20reviews.PNG)
 
-## ✨ Features
+## Getting Started
 
-### Customer-Facing Website
-- 🏠 Homepage with hero slider, best sellers, new arrivals, and customer testimonials
-- 🔍 Live product search with instant results
-- 🗂️ Category browsing (Zari Work, Thread Embroidery, Mirror Work, Cutwork & Lace)
-- 🛒 Full shopping cart with quantity management
-- 💳 Checkout with Cash on Delivery, JazzCash, and Easypaisa
-- 📦 Order tracking by Order ID
-- ⭐ Customer reviews and ratings on every product
-- 💬 WhatsApp integration for support and custom orders
-- 📱 Fully responsive — mobile, tablet, and desktop
-- 📄 FAQs, Shipping Policy, Return Policy, About Us, and Contact pages
+### Prerequisites
 
-### Admin Panel
-- 🔐 Secure login with JWT authentication
-- 📊 Dashboard with order stats, revenue, and low-stock alerts
-- 🧵 Full product management — add, edit, delete products
-- 📦 Order management with status updates (Pending → Confirmed → Shipped → Delivered)
-- ⭐ Review moderation — approve or remove customer reviews
+- Node.js 18 or later
+- The [embroidery-backend](https://github.com/majidawan01/embroidery-backend) API running on `http://localhost:5000` for full functionality
 
----
-
-## 🛠️ Tech Stack
-
-**Frontend:**
-- React.js + Vite
-- React Router
-- Tailwind CSS
-
-**Backend:**
-- Node.js + Express
-- MongoDB (Mongoose)
-- JWT Authentication + bcrypt
-
-**Deployment:**
-- Frontend — Vercel
-- Backend — Railway
-- Database — MongoDB Atlas
-
----
-
-## 📁 Project Structure
-src/
-├── components/ → Reusable UI components (Navbar, Footer, ProductCard...)
-├── pages/ → Page components (Home, Products, Cart, Checkout...)
-├── pages/admin/ → Admin panel pages
-├── context/ → Cart state management
-├── data/ → Static reference data
-├── services/ → API service layer
-└── utils/ → Helper functions
-
-
----
-
-## 🚀 Getting Started (Local Development)
+### Run
 
 ```bash
-# Clone the repository
 git clone https://github.com/majidawan01/embroidery-store.git
-
-# Install dependencies
+cd embroidery-store
 npm install
-
-# Run development server
-npm run dev
+npm run dev      # http://localhost:5173
 ```
 
-The app will run at `http://localhost:5173`. Note: this frontend connects to a separate backend repository ([embroidery-backend](https://github.com/majidawan01/embroidery-backend)) which must be running for full functionality.
+Build for production:
 
----
+```bash
+npm run build
+```
 
-## 📞 Contact
+## Environment Variables
 
-For business inquiries related to this project, reach out via WhatsApp at **+92 344 0232857**.
+None for this frontend. The API URL is set in `src/services/api.js`: `http://localhost:5000/api` in development and the Railway URL in production. The backend's variables are documented in its own repo.
 
----
+## Project Structure
 
-*This project was built as a complete e-commerce solution — from frontend design to backend API, database, admin panel, and live deployment.*
+```
+src/
+├── components/   Reusable UI (Navbar, Footer, ProductCard, ...)
+├── pages/        Store pages (Home, Products, Cart, Checkout, ...)
+├── pages/admin/  Admin panel pages
+├── context/      Cart state
+├── data/         Static reference data
+├── services/     API calls
+└── utils/        Helpers
+```
+
+## Author
+
+**Majid Awan** · [Portfolio](https://majid-awan-updated-portfolio-stzz.vercel.app) · [LinkedIn](https://www.linkedin.com/in/majid-awan-8210943a3) · [GitHub](https://github.com/majidawan01)
